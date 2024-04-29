@@ -1,0 +1,25 @@
+.navContainer{
+    height: 100%;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: rgb(107, 74, 74);
+}
+
+.photoSection{
+    height: 200px;
+    width: 200px;
+    
+    border-radius: 100%;
+    border: 3px solid green;
+
+    background-image: url('../../../images/foto.png');
+    background-position: center;
+    background-size: cover;
+}
+
+
+

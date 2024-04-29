@@ -91,7 +91,6 @@
   min-height: calc(100vh - 26px);
   display: grid;
   margin: 13px;
-  
 
   grid-template:
   "navBar navBar" 100px
@@ -100,7 +99,7 @@
 
   .navBar{
     grid-area: navBar;
-    border: 1px solid red;
+
     background-color: #131313;
   }
 
@@ -111,11 +110,20 @@
   }
 
   @media (min-width: 768px) {
+    min-height: calc(100vh - 50px);
+    margin: 25px;
+
+    
     grid-template:
       "navBar sectionContainer"
       "navBar sectionContainer" /
       300px auto
     ;
+  }
+
+  @media (min-width: 992px) {
+    min-height: calc(100vh - 100px);
+    margin: 50px;
   }
 }
 

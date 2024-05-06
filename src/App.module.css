@@ -1,137 +1,25 @@
-/* .container > * {
-  border-radius: 10px;
-  padding: 10px;
-  text-align: center;
-  border: 2px solid green;
-  font-size: 20px;
-  color: black;
- }
-
-.container {
-  min-height: 100vh;
-  padding: 20px;
-
-  display: grid;
-  gap: 10px;
-  grid-template: 
-  "navbar" 50px
-  "header" 100px
-  "main"
-  "sidebar" 200px
-  "footer" 100px
-  ;
-
-  .header{
-    grid-area: header;
-    background-color: bisque;
-  }
-
-  .navbar{
-    grid-area: navbar;
-    background-color: aquamarine;
-  }
-
-  .main{
-    grid-area: main;
-    background-color: brown;
-  }
-
-  .footer{
-    grid-area: footer;
-    background-color: blueviolet;
-  }
-
-  .sidebar{
-    grid-area: sidebar;
-    background-color: chocolate;
-  }
-
-  @media (min-width: 768px) {
-    grid-template: 
-    "header navbar" 100px
-    "sidebar main" auto
-    "footer footer" 100px/
-    200px auto
-    ;
-  }
-
-  @media (min-width: 992px) {
-    grid-template: 
-    "navbar navbar navbar" 100px
-    "header main sidebar" auto
-    "footer footer footer" 100px/
-    200px auto 200px
-    ;
-  }
-} */
-
-/* .appContainer {
-  min-height: 80vh;
-  max-width: 1300px;
-
-  margin-top: 70px;
-  display: grid;
-  grid-template:
-  "navBar sectionContainer"/
-  300px auto
-  ;
-
-  .navBar{
-    grid-area: navBar;
-    background-color: #131313;
-  }
-
-  .sectionContainer{
-    grid-area: sectionContainer;
-    background-color: #272727;
-  }
-} */
-
 .appContainer{
-  min-height: calc(100vh - 26px);
-  display: grid;
-  margin: 13px;
-
-  grid-template:
-  "navBar navBar" 100px
-  "sectionContainer sectionContainer"  
-  ;
-
-  .navBar{
-    grid-area: navBar;
-
-    background-color: #131313;
-  }
-
-  .sectionContainer{
-    grid-area: sectionContainer;
-    
-    background-color: #272727;
-  }
-
-  @media (min-width: 768px) {
-    min-height: calc(100vh - 50px);
-    margin: 25px;
-
-    
-    grid-template:
-      "navBar sectionContainer"
-      "navBar sectionContainer" /
-      300px auto
-    ;
-  }
-
-  @media (min-width: 992px) {
-    min-height: calc(100vh - 100px);
-    margin: 50px;
-  }
+  height: 100vh;
+  display: flex;
+  justify-content: center;
 }
 
+.app{
+  width: 1400px;
+  
+}
 
+.section{
+  width: 1400px;
+  padding-left: 250px;
+}
 
+@media (min-width: 768px) {
+    
+    
+}
 
+@media (min-width: 992px) {
+  
 
-
-
-
-
+}

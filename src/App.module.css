@@ -2,11 +2,14 @@
   height: 100vh;
   display: flex;
   justify-content: center;
+  /* background-image: url('../images/Fondo-Horizontal.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; */
 }
 
 .app{
   width: 1400px;
-  
 }
 
 .section{
@@ -14,8 +17,11 @@
   padding-left: 250px;
 }
 
-@media (min-width: 768px) {
-    
+@media (max-width: 768px) {
+    .appContainer{
+      
+
+    }
     
 }
 

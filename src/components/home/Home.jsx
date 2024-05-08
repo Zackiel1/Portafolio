@@ -4,7 +4,10 @@ const Home = () => {
 
     return(
         <main className={style.main}>
-            <h1>Soy el Home</h1>
+            
+           <h1>Alejandro Fernandez</h1>
+            <br/>
+           <h2>Desarrollador Web Full Stack</h2>
         </main>
     )
 };

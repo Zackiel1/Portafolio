@@ -26,6 +26,7 @@ const App = () => {
     <main className={style.appContainer}>
       
       <section className={style.app}>
+
           <NavBar  className={style.navBar}/>
 
           <Element name="home" >
@@ -34,6 +35,7 @@ const App = () => {
           <Element name="projects">
             <Projects />
           </Element>
+          
       </section>
     </main>
   )

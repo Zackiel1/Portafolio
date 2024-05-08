@@ -1,5 +1,16 @@
 .main{
     height: 100vh;
-    padding-left: 250px;
-    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    border: 50px solid rgba(0, 0, 0, 0.5);
+    margin-left: 250px;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width :700px){
+    .main{
+        background-color: rgba(0, 0, 0, 0.0);
+
+    }
 }

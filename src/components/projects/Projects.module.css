@@ -2,5 +2,13 @@
     height: 100vh;
     padding: 20px;
     padding-left: 270px;
-    background-color: rgb(23, 124, 49);
+    border: 50px solid rgba(0, 0, 0, 0.5);
+    margin-left: 250px;
+}
+
+@media (max-width: 700px){
+    .main{
+       
+    }
+
 }

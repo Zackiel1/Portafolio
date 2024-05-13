@@ -33,6 +33,10 @@ body {
   --color-decoration-primary: #04C4D9; 
   --color-decoration-secondary: #EC9B28;
   --color-bg-transparent: rgba(0, 0, 0, 0.5);
+  --color-text: rgb(248, 248, 248);
+
+  --font-text: "Poetsen One", sans-serif;
+  --font-text2: "Sedan SC", serif;
 }
 
 

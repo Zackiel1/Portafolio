@@ -2,7 +2,7 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    border: 50px solid rgba(0, 0, 0, 0.5);
+    border: 50px solid var(--color-bg-transparent);
     margin-left: 250px;
     justify-content: center;
     align-items: center;

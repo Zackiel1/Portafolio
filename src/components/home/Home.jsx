@@ -4,10 +4,11 @@ const Home = () => {
 
     return(
         <main className={style.main}>
-            
-           <h1>Alejandro Fernandez</h1>
-            <br/>
-           <h2>Desarrollador Web Full Stack</h2>
+            <section className={style.container}>
+                <h2>Alejandro Fernandez</h2>
+                <h1>Desarrollador Web Full Stack</h1>
+                <h4>CABA - Argentina</h4>
+            </section>
         </main>
     )
 };

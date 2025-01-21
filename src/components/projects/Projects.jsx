@@ -1,10 +1,16 @@
+import CardsContainer from '../cardsContainer/CardsContainer';
 import style from './Projects.module.css';
 
 const Projects = () => {
 
     return(
         <main className={style.main}>
-            <h1>Projects</h1>
+            <section className={style.container}>
+                <h1>proyectos</h1>
+                <article className={style.articles}>
+                    <CardsContainer />
+                </article>
+            </section>
         </main>
     )
 };

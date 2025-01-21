@@ -1,9 +1,26 @@
 .main{
     height: 100vh;
     padding: 20px;
-    padding-left: 270px;
-    border: 50px solid rgba(0, 0, 0, 0.5);
-    margin-left: 250px;
+    margin-left: 250px;   
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    background-color: aqua;
+}
+
+.articles{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap-reverse;
+    background-color: black;
 }
 
 @media (max-width: 700px){

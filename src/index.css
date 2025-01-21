@@ -7,10 +7,11 @@
 
 
 body {
-  background-image: url('../images/Fondo-Horizontal.jpg');
+  background-image: url('../images/wallpaperbetter.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  
 }
 
 @media (max-width: 770px) {
@@ -19,6 +20,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    
   }
 }
 

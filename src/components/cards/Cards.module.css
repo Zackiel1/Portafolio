@@ -1,0 +1,18 @@
+.container{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    align-items: flex-start;
+}
+
+.image{
+    order: 0;
+    align-self: center;
+}
+
+.sectionContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}

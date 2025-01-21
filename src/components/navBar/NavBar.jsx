@@ -62,7 +62,7 @@ const NavBar = () => {
                         </Link>
                         <Link to='https://drive.google.com/file/d/1bQiLEIFHdJVleygbYjIiIaORbLRfv9AX/view?usp=sharing' target='blank' className={style.cv}>CV</Link>
                     </div>
-                    <span className={style.gmail} onClick={handlerCopyText}>Alejandrozfm132@gmail.com</span>
+                    <span alt='copy' className={style.gmail} onClick={handlerCopyText}>Alejandrozfm132@gmail.com</span>
                 </section>
             </section>
   

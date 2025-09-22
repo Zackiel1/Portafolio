@@ -23,19 +23,23 @@ const App = () => {
 
 
   return (
-    <main className={style.appContainer}>
-      
+    <main className={style.appContainer}> 
       <section className={style.app}>
 
-          <NavBar  className={style.navBar}/>
+        <nav className={style.navBar}>
+            <NavBar  /> 
+        </nav>
 
-          <Element name="home" >
-            <Home />
-          </Element>
-          <Element name="projects">
-            <Projects />
-          </Element>
-          
+        <div className={style.components}>
+            <Element name="home" >
+              <Home />
+            </Element>
+            
+            <Element name="projects">
+              <Projects />
+            </Element>
+        </div>
+            
       </section>
     </main>
   )

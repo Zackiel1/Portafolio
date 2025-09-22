@@ -10,9 +10,9 @@ const Cards = (props) => {
                 <h3>{props.name}</h3>
                 <p>{props.description}</p>
 
-                <div>
+                {/* <div>
                     <Skills />
-                </div>
+                </div> */}
 
                 <div>
                     <span>GITHUB</span>

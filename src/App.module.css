@@ -1,31 +1,42 @@
+/*First mobil*/
+
 .appContainer{
-  height: 100vh;
+  height: 100%;
   display: flex;
   justify-content: center;
-  /* background-image: url('../images/Fondo-Horizontal.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed; */
+  background-image: url('../images/fondoBlackWhite.jpg');
+  background-size: contain;
 }
 
 .app{
-  width: 1400px;
+  height: 100%;
+  display: grid;
+  grid-template-columns: minmax(50px, 50px) minmax(280px, 830px);
+  max-width: 900px;
 }
 
-.section{
-  width: 1400px;
-  padding-left: 250px;
+.navBar{
+  height: 100%;
+
 }
 
-@media (max-width: 768px) {
-    .appContainer{
-      
+.components{
+  height: 100%;
+  background-color: black;
+}
 
-    }
+@media (min-width: 540px){
+  .app{
+    /* grid-template-columns: 40% 60%; */
+  grid-template-columns: minmax(45px, 170px) minmax(310px, 830px);
     
+    
+  }
 }
 
-@media (min-width: 992px) {
-  
-
+@media (min-width: 1500px){
+  .appContainer{
+    background-image: url('../images/fondoBlackWhiteXl.jpg');
+     
+  }
 }

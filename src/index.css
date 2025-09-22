@@ -7,22 +7,13 @@
 
 
 body {
-  background-image: url('../images/wallpaperbetter.jpg');
+  /* background-image: url('../images/wallpaperbetter.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  
-}
-
-@media (max-width: 770px) {
-  body {
-    background-image: url('../images/Fondo-Vertical.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    
+   */
+  background-color: var(--color-decoration-primary);
   }
-}
 
 :root {
  
@@ -32,8 +23,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  --color-decoration-primary: #04C4D9; 
-  --color-decoration-secondary: #EC9B28;
+  --color-decoration-primary: #1b263b; 
+  --color-decoration-secondary: #415a77;
+  --color-decoration-TRE: #778da9;
   --color-bg-transparent: rgba(0, 0, 0, 0.5);
   --color-text: rgb(248, 248, 248);
 

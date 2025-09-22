@@ -1,20 +1,18 @@
-.navContainer{
-    height: 100vh;
-    width: 250px;
-    padding: 20px;
-    display: flex;
+/*No First Mobil*/
+
+/* .navContainer{
+    height: 100%;
+    width: 230px;
     position: fixed;
-    top: 0;
     flex-direction: column;
-    align-items: center;
-    border-right: 1px solid white;
-    background-color: rgba(0, 0, 0, 0.7);
+    
+    
 }
 
 .photoSection{
     height: 200px;
     width: 200px;
-    
+
     border-radius: 100%;
     border: 6px solid var(--color-decoration-primary);
 
@@ -28,16 +26,15 @@
 
     li{
         font-size: 35px;
-        font-weight: bold;
         color: var(--color-decoration-primary);
     }
 
     li:hover{
         color: var(--color-decoration-secondary);
     }
-    
+
     li a{
-        font-size: 28px;
+        font-size: 21px;
         text-decoration: none;
         color: var(--color-text);
         font-family: var(--font-text);
@@ -49,20 +46,21 @@
 }
 
 .navList li::before {
-    content: "|"; 
-    padding-right: 7px; 
+    content: "|";
+    padding-right: 7px;
 }
 .menuButton{
     display: none;
 }
 
 .navSection{
-    height: 100vh;
-    padding: 15px 0 15px 0;
+    height: 100%;
+    padding: 15px 0px 15px 0px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    border-right: 1px solid white;
 }
 
 .tittle{
@@ -93,11 +91,11 @@
         justify-content: center;
         gap: 25px;
     }
-    
+
     .icon{
         height: 40px;
     }
-    
+
     .cv{
         height: 38px;
         width: 38px;
@@ -116,47 +114,158 @@
 
 @media (max-width: 700px){
     .navContainer{
-        height: 80px;
-        width: 100%;
-        align-items: start;
-    }
-
-    .contactSection{
-        align-items: end;
-    }
-
-    .photoSection{
-        display: none;
-    }
-
-    .menuButton{
-        height: 30px;
-        width: 30px;
-        display: block;
-        position: absolute;
+        height: 100%;
+        top: 0px;
+        left: 0px;
+        border: 3px solid #04C4D9;
     }
 
     .navSection{
-        height: 1000px;     
-        padding: 20px;
-        padding-top: 80px;
+       
+    }
 
+    .photoSection{
+        height: 170px;
+        width: 170px;
+    }
+
+    .menuButton{
+        height: 90px;
+        width: 50px;
         display: flex;
-        flex-direction: column;
         position: absolute;
         top: 0;
-        left: 0;
-        z-index: -10;
-    }
+        left: 250px;
+     }
 
     .open{
         margin-left: 0px;
-        background-color: red;
         transition: all 0.2s;
+        z-index: 10;
     }
 
     .close{
         transition: all 0.2s;
-        margin-left: -300px;
+        margin-left: -250px;
+    }
+} */
+
+.navContainer{
+    height: 100vh;     
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 0;
+    padding: 13px 5px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;     
+}
+
+.tittleNav{ 
+    font-size: 25px;  
+    font-family: "Kaushan Script", sans-serif;
+    color: rgb(0, 0, 0);   
+}
+
+.tittleNav span{
+    color: #04C4D9;
+}
+
+.photoSection{
+    display: none;
+}
+
+.navList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;    
+}
+
+
+.letterMenu{
+    display: none;
+}
+
+.iconMenu{
+    font-size: 26px;
+    color: black;
+}
+
+.iconsContactContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.iconContact{
+    font-size: 22px;
+}
+
+
+@media (min-width: 540px){
+
+    .tittleNav{
+        font-size: 30px;
+    }
+
+    .tittleNav br{
+        display: none;
+    }
+
+    .photoSection{
+        display: block;
+        height: 120px;
+        width: 120px;
+ 
+
+        border-radius: 100%;
+        border: 6px solid var(--color-decoration-primary);
+
+        background-image: url('../../../images/foto.png');
+        background-position: center;
+        background-size: cover;
+    }
+
+    .iconMenu{
+        font-size: 17px;
+    }
+
+    .navList{
+        align-items: initial;    
+    }
+
+    .navList li{
+        display: flex;
+        gap: 9px;
+        cursor: pointer;
+    }
+
+    .letterMenu{
+        display: initial;
+        font-size: 19px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .iconsContactContainer{
+        flex-direction: row;
+    }
+
+    .iconContact{
+        font-size: 26px;
+        cursor: pointer;
+
+    }
+
+}
+
+@media (min-width: 650px){
+
+    .photoSection{
+        height: 140px;
+        width: 140px;
     }
 }

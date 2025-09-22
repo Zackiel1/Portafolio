@@ -1,5 +1,6 @@
 .container{
-    width: 400px;
+    width: 300px;
+    padding: 2px;
     display: flex;
     flex-direction: column;
     background-color: red;
@@ -7,6 +8,7 @@
 }
 
 .image{
+    margin-top: 7px;
     order: 0;
     align-self: center;
 }
